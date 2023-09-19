@@ -1,0 +1,5 @@
+0001    Rimuru-Tempest 88 91 100  
+0002    Veldora-Tempest	78 73 71
+0003    Milim-Nava	78 70 69
+0004    Ramiris	89 90 95
+0005    Deeno 	67 54 53
