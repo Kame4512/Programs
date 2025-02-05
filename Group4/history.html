@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> History of Reggae </title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pagecontainer">
+        <header>
+            <nav class = "pages">
+                <a id  = "home"        href = "index.html">       Home           </a>
+                <a id  = "history"     href = "history.html">     History        </a>
+                <a id  = "current"     href = "current.html">     Current Status </a>
+                <a id  = "originators" href = "originators.html"> Originators    </a>
+                <a id  = "contact"     href = "contact.html">     Contact        </a>
+            </nav>
+        </header>
+    
+        <main>
+            <h1 class="gradient-text"> History of Reggae</h1>
+            <div class="main-container">
+                <div class="slideshow-container">
+                    <div class="slides">
+                        <img src="images/what-is-considered-ska-music.jpg" alt="Slide 1" onclick="showPopup(0)">
+                        <p class="caption">
+                            <strong>Image Credit:</strong> 
+                            <a href="https://www.csbvbristol.org.uk/2024/04/12/hhh-african-caribbean/" target="_blank" rel="noopener noreferrer">
+                              CSBV Bristol, "Hostility, Healing, and Hymnody in the African Caribbean"
+                            </a>
+                        </p>
+                    </div>
+                    <div class="slides">
+                        <img src="images/protest.jpg" alt="Slide 2" onclick="showPopup(1)">
+                        <p class="caption">
+                            <strong>Image Credit:</strong> 
+                            <a href="https://archive.discoversociety.org/2014/07/01/focus-when-britain-loved-rastafari/" target="_blank" rel="noopener noreferrer">
+                              Discover Society, "Focus: When Britain Loved Rastafari"
+                            </a>
+                        </p>
+                          
+                    </div>
+                    <div class="slides">
+                        <img src="images/Bob-history.jpg" alt="Slide 3" onclick="showPopup(2)">
+                        <p class="caption">
+                            <strong>Image Credit:</strong> 
+                            <a href="https://www.rollingstone.com/music/music-lists/bob-marley-greatest-songs-937701/" target="_blank" rel="noopener noreferrer">
+                              Rolling Stone, "Bob Marley's Greatest Songs"
+                            </a>
+                          </p>                          
+                    </div>
+                    <div class="slides">
+                        <img src="images/BlackUhuru.jpg" alt="Slide 4" onclick="showPopup(3)">
+                        <p class="caption">
+                            <strong>Image Credit:</strong> 
+                            <a href="https://en.wikipedia.org/wiki/As_the_World_Turns_(album)" target="_blank" rel="noopener noreferrer">
+                              Wikipedia, "As the World Turns (album)"
+                            </a>
+                        </p>
+                    </div>
+                    <div class="slides">
+                        <img src="images/Reggae-Aesthetic-Wallpaper.jpg" alt="Slide 5" onclick="showPopup(4)">
+                        <p class="caption">
+                            <strong>Image Credit:</strong> 
+                            <a href="https://www.pinterest.com/pin/jamaica-in-2024--10485011653526219/" target="_blank" rel="noopener noreferrer">
+                              Pinterest, "Jamaica in 2024"
+                            </a>
+                        </p>
+                    </div>
+            
+                    <button class="arrow left" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="arrow right" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+            
+                <div id="popup" class="popup">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <div class="popup-content" id="popup-content"></div>
+                </div>
+
+                <div class="history-summary">
+                    <p>Reggae music emerged in the late 1960s in Jamaica, rooted in the island's rich musical traditions of ska and rocksteady. 
+                        Known for its signature offbeat rhythms and socially conscious lyrics, reggae quickly became a voice for the oppressed, 
+                        addressing themes of social justice, spirituality, and resistance. The genre gained international attention in the 1970s, 
+                        spearheaded by iconic artists like Bob Marley, Peter Tosh, and Jimmy Cliff, who brought reggae's message of unity and resilience 
+                        to the global stage. Over time, reggae influenced and was influenced by other genres, blending with rock, hip-hop, and electronic
+                         music to create new sounds while maintaining its distinctive identity. Today, reggae remains a powerful cultural force, 
+                         celebrated for its enduring impact on music, activism, and the fight for equality. This history encapsulates the genre's
+                          evolution from its humble beginnings in Kingston to its recognition as a global symbol of hope and empowerment.</p>
+                </div>
+            </div>
+                
+            
+                <script src="scripts/script.js"></script> 
+
+           
+        </main>
+
+        <footer>
+            <nav class = "pages">
+                <a id  = "home"        href = "index.html">       Home           </a>
+                <a id  = "history"     href = "history.html">     History        </a>
+                <a id  = "current"     href = "current.html">     Current Status </a>
+                <a id  = "originators" href = "originators.html"> Originators    </a>
+                <a id  = "contact"     href = "contact.html">     Contact        </a>
+            </nav>
+            <div>
+                <p>&copy 2024 World of Reggae. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

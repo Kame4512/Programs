@@ -1,0 +1,628 @@
+
+/* Universal Selector reset */
+* {
+margin: 0;
+padding: 0;
+border: 0;
+
+}
+
+/* Spacing out the form elements */
+form div {
+    margin-bottom: 20px; /* Adds space between each div */
+}
+
+/* Input, Select, and Textarea Styling */
+input[type="text"], select, textarea {
+    width: 50%; /* Full width input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin-top: 5px; /* Space between label and input/select/textarea */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold; /* Bold text for labels */
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: black; 
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+
+body {  
+    font-family: "Open Sans", sans-serif;
+    background: url('../images/Bob_Marley_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500; /* Medium */
+}
+
+.bio {
+    text-align: left;
+    color: black;
+   
+}
+
+/*audio {
+    width: 30%;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  }*/
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+  }
+  
+
+  h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: black;
+    margin: 20px 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0;
+    border-bottom: 2px solid #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .item img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 5px; /* Rounds the corners of the image */
+  }
+  
+  .item p {
+    margin-top: 10px; /* Adds space between the image and caption */
+    color: #333; /* Caption text color */
+    font-size: 16px; /* Caption font size */
+  }
+
+#home, #history, #current, #originators, #contact {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pagecontainer{
+  background-color: rgba(255, 255, 255, 0.90);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 1200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+  
+  
+
+article {
+  display: flex;                /* Use flexbox for layout */
+  align-items: flex-start;     /* Align items at the top */
+  margin-bottom: 20px;         /* Space between articles */
+}
+
+article img {
+  margin-right: 20px;          /* Space between image and text */
+  height: 300px;               /* Set a consistent height for images */
+}
+
+.bio {
+  flex: 1;                     /* Allow the bio to take up remaining space */
+}
+
+p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.bio-pic {
+  width: 300px; /* Set the desired width */
+  height: 350px; /* Set the desired height */
+  object-fit: cover; /* Crops the image */
+}
+
+nav.pages {
+  text-align: center;  /* Center the content */
+  padding: 14px 25px;  /* Same padding for both */
+  text-align: center;
+}
+
+.audio-container {
+  max-width: 800 px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.audio-container h3 {
+  font-size: 1.5 em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+audio {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Credits and License Text Styling */
+.credits,
+.cc-license {
+  color: #555;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.credits a, .cc-license a {
+  color: #1e88e5;
+}
+
+.credits a:hover, .cc-license a:hover {
+  text-decoration: underline;
+}
+
+.pages {
+  margin-top: 30px;
+  padding-top: 10px;
+
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* Footer Styling for Copyright */
+footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+footer p {
+  margin: 0;
+}
+
+#contact-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#contact-form .form-group {
+  display: flex; /* Align label and input on the same line */
+  align-items: center; /* Vertically center the label and input */
+  margin-bottom: 15px; /* Space between each form group */
+}
+
+#contact-form label {
+  width: 30%; /* Adjust width of label as needed */
+  text-align: right; /* Right align label text */
+  margin-right: 10px; /* Space between label and input */
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form button {
+  flex-grow: 1; /* Ensure input fields grow to take up remaining space */
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't increase width */
+}
+
+#contact-form textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+#contact-form #submit-element {
+  text-align: left;
+}
+
+.LinkedInprof{
+  justify-content: left;
+}
+
+
+/* Updated 2x2 Grid Layout with larger items */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;   /* Two equal-width columns */
+  grid-template-rows: 1fr 1fr;      /* Two equal-height rows */
+  row-gap: 100px;                   /* Increased space between rows */
+  padding: 20px;
+  margin-bottom: 10px;
+  height: auto;                    /* Keeps container height at 100% of the viewport */
+}
+
+.grid-item {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: #333;
+  border-radius: 5px;
+  height: 900px;  /* Example fixed height */
+  width: auto;
+  flex-direction: column;
+}
+
+
+
+.grid-item a {
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+
+
+/* Styling the iframe within the grid item */
+.grid-item iframe {
+  width: 100%;                             /* Ensures iframe fills the grid cell */
+  height: 100%;                            /* Responsive height for iframe */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.slideshow-container {
+  position: relative;
+  width: auto;  
+  height: 300px;
+  margin: 100px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 175px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+p.caption {
+  text-align: center;
+}
+
+.slides {
+  display: none;
+}
+
+.slides img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 500px;
+  width: 1000px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border: none;
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;  /* Width of the popup */
+  background: rgba(0, 0, 0, 0.9);  /* Dark semi-transparent background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  /* Optional shadow for effect */
+}
+
+.popup-content {
+  font-size: 18px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+/* Custom Styles for the New Slideshow */
+.custom-slideshow-container {
+  display: flex;
+  overflow-x: scroll;
+  margin: 100px auto;
+  width: 100%;
+  height: 500px; /* Adjust as needed */
+  position: relative;
+  font-size: 14px;
+}
+
+.custom-slide {
+  position: relative;
+  min-width: 300px; /* Adjust based on the size of your images */
+  margin-right: 10px; /* Space between images */
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.custom-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background:black;
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.custom-info h3 {
+  color: white;
+}
+
+.custom-slide:hover .custom-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ensure the video section is styled appropriately */
+#video-section {
+  width: 95%; /* Adjust to desired width */
+  display: block; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* YouTube iframe styling */
+#video-section iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+
+/* Fallback message styling */
+.video-fallback {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.video-fallback p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.video-fallback a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.video-fallback a:hover {
+  text-decoration: underline;
+}
+
+/* Caption styling */
+#video-section figcaption {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+img {
+  display: block; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+
+    .gradient-text {
+      background: linear-gradient(to right, #A40000,#FFB300, #12A113  ); /* Reggae gradient */
+      background-clip: text; /* Clips gradient to text */
+      -webkit-background-clip: text; /* Webkit-specific clipping */
+      color: transparent; /* Makes the background gradient visible */
+      -webkit-text-stroke: 0.5px #4B3C28;
+  }
+
+/* Container for the image map */
+.image-map-container {
+  margin-top: 20px; /* Optional, for spacing above the map */
+}
+
+/* Styling for the flag image inside the map container */
+.image-map-container img {
+  width: 800px; /* Sets the image width to 400px */
+  height: 500px; /* Sets the image height to 600px */
+  display: block; /* Removes inline block behavior */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+
+}
+
+/* General table styling */
+table {
+  width: 100%; /* Make the table take up the full width of its container */
+  border-collapse: collapse; /* Ensure borders are merged for a clean look */
+  background-color: white; /* Set a white background for the table */
+}
+
+/* Table header styling */
+th {
+  background-color: #f2f2f2; /* Light gray background for headers */
+  color: #333; /* Darker text for contrast */
+  padding: 10px; /* Add some padding for better readability */
+  border: 2px solid #555; /* Darker border for headers */
+  text-align: left; /* Align header text to the left */
+}
+
+/* Table cell styling */
+td {
+  padding: 10px; /* Add padding for readability */
+  border: 1px solid #555; /* Darker borders for table cells */
+  color: #333; /* Text color for cells */
+}
+
+/* Alternate row shading */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+/* Table border styling */
+table, th, td {
+  border: 2px solid #555; /* Consistent border thickness and color */
+}
+
+/* Optional: Highlight row on hover */
+tr:hover {
+  background-color: #e6e6e6; /* Slightly darker shade on hover */
+}
+
+
+.contact-block {
+  width: 600px; /* Set a fixed width */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  text-align: center; /* Center text inside the block */
+}
+
+.contact-block h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-block p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+img {
+  width: 1000px;
+  height: 437.158px;
+    margin: 0 auto; 
+/* Maintain aspect ratio */
+}
+
+ul {
+  font-size:21px
+}
+
+
+  
+
+
